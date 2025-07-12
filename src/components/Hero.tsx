@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
             {/* Description */}
             <p className="text-xl lg:text-2xl text-blue-100 mb-12 leading-relaxed">
               Стальные круги, трубы, профильные трубы от ведущих заводов России. 
-              <span className="text-orange-300 font-semibold"> Экономия до 15%</span> от рыночных цен!
+              <span className="text-orange-300 font-semibold"> Экономия до 50%</span> от рыночных цен!
             </p>
 
             {/* Stats */}
@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
                 <div className="text-blue-200 text-sm lg:text-base">дней доставка</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl lg:text-4xl font-bold text-purple-400 mb-2">15%</div>
+                <div className="text-3xl lg:text-4xl font-bold text-purple-400 mb-2">до 50%</div>
                 <div className="text-blue-200 text-sm lg:text-base">экономия</div>
               </div>
               <div className="text-center">
@@ -155,13 +155,13 @@ const Hero: React.FC = () => {
               🔥 Специальное предложение для новых клиентов!
             </h2>
             <p className="text-xl text-blue-100 mb-6">
-              Скидка <span className="text-orange-300 font-bold">5%</span> на первый заказ + бесплатная консультация по подбору металлопроката
+              Скидка <span className="text-orange-300 font-bold">до 50%</span> на первый заказ + бесплатная консультация по подбору металлопроката
             </p>
             <button
               onClick={handleOrderClick}
               className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white px-10 py-4 rounded-2xl text-xl font-bold transition-all transform hover:scale-105 shadow-xl"
             >
-              Получить скидку 5% 🎁
+              Получить скидку до 50% 🎁
             </button>
           </div>
         </div>

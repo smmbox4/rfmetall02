@@ -16,13 +16,13 @@ const Footer: React.FC = () => {
                 <span className="text-2xl font-bold">А</span>
               </div>
               <div>
-                <h3 className="text-2xl font-bold">АТЛАНТ Снаб Сити</h3>
+                <h3 className="text-2xl font-bold">АТЛАНТ МЕТАЛЛ</h3>
                 <p className="text-gray-400">Поставка металлопроката из России</p>
               </div>
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Надежный поставщик качественного металлопроката из России в Казахстан. 
+              Надежный поставщик качественного металлопроката из России в Казахстан.
               Более 5 лет успешной работы, 800+ позиций в наличии, доставка по всему Казахстану за 5-10 дней.
             </p>
             
@@ -81,8 +81,8 @@ const Footer: React.FC = () => {
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-orange-400 flex-shrink-0" />
                 <div>
-                  <a href="tel:+77777777777" className="text-white hover:text-orange-400 transition-colors font-semibold">
-                    +7 (777) 777-77-77
+                  <a href="tel:+77012345678" className="text-white hover:text-orange-400 transition-colors font-semibold">
+                    +7 (701) 234-56-78
                   </a>
                   <p className="text-gray-400 text-sm">Звоните с 9:00 до 18:00</p>
                 </div>
@@ -91,8 +91,8 @@ const Footer: React.FC = () => {
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-orange-400 flex-shrink-0" />
                 <div>
-                  <a href="mailto:info@atlantsnabcity.kz" className="text-white hover:text-orange-400 transition-colors">
-                    info@atlantsnabcity.kz
+                  <a href="mailto:info@atlantmetal.kz" className="text-white hover:text-orange-400 transition-colors">
+                    info@atlantmetal.kz
                   </a>
                   <p className="text-gray-400 text-sm">Коммерческие вопросы</p>
                 </div>
@@ -121,7 +121,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 ТОО "АТЛАНТ Снаб Сити". Все права защищены.
+              © 2024 ТОО "АТЛАНТ МЕТАЛЛ". Все права защищены.
             </div>
             
             <div className="flex flex-wrap gap-6 text-sm">
@@ -151,7 +151,7 @@ const Footer: React.FC = () => {
               onClick={() => openModal('Заказать звонок')}
               className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white px-8 py-3 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg"
             >
-              📞 Заказать звонок прямо сейчас
+              📞 Позвонить: +7 (701) 234-56-78
             </button>
           </div>
         </div>

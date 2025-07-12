@@ -17,7 +17,7 @@ const About: React.FC = () => {
           
           <h2 className="text-4xl lg:text-6xl font-bold mb-8">
             <span className="bg-gradient-to-r from-gray-900 via-blue-800 to-gray-900 bg-clip-text text-transparent">
-              АТЛАНТ Снаб Сити
+              АТЛАНТ МЕТАЛЛ
             </span>
             <br />
             <span className="bg-gradient-to-r from-orange-500 via-red-500 to-orange-500 bg-clip-text text-transparent">
@@ -61,7 +61,7 @@ const About: React.FC = () => {
                   <h4 className="text-xl font-bold text-gray-900 mb-2">Выгодные цены</h4>
                   <p className="text-gray-600">
                     Прямые поставки от заводов позволяют нам предлагать цены на 10-15% ниже рыночных. 
-                    Никаких посредников — только честные и прозрачные условия.
+                    Экономия до 50% от рыночных цен. Никаких посредников — только честные и прозрачные условия.
                   </p>
                 </div>
               </div>
@@ -146,6 +146,17 @@ const About: React.FC = () => {
               <p className="text-gray-600 mb-6">
                 Бесшовные и электросварные трубы различных диаметров для строительства и промышленности
               </p>
+              <div className="mb-4">
+                <h5 className="font-bold text-gray-800 mb-2">Популярные размеры:</h5>
+                <div className="grid grid-cols-2 gap-2 text-sm">
+                  <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded">Ø32×3</div>
+                  <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded">Ø57×3</div>
+                  <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded">Ø76×4</div>
+                  <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded">Ø108×4</div>
+                  <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded">Ø159×6</div>
+                  <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded">Ø219×8</div>
+                </div>
+              </div>
               <ul className="text-sm text-gray-600 space-y-2">
                 <li className="flex items-center justify-center">
                   <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
@@ -168,6 +179,17 @@ const About: React.FC = () => {
               <p className="text-gray-600 mb-6">
                 Квадратные и прямоугольные профильные трубы для металлоконструкций и каркасов
               </p>
+              <div className="mb-4">
+                <h5 className="font-bold text-gray-800 mb-2">Популярные размеры:</h5>
+                <div className="grid grid-cols-2 gap-2 text-sm">
+                  <div className="bg-green-100 text-green-800 px-2 py-1 rounded">20×20×2</div>
+                  <div className="bg-green-100 text-green-800 px-2 py-1 rounded">40×40×3</div>
+                  <div className="bg-green-100 text-green-800 px-2 py-1 rounded">60×60×4</div>
+                  <div className="bg-green-100 text-green-800 px-2 py-1 rounded">80×80×5</div>
+                  <div className="bg-green-100 text-green-800 px-2 py-1 rounded">100×100×6</div>
+                  <div className="bg-green-100 text-green-800 px-2 py-1 rounded">120×120×8</div>
+                </div>
+              </div>
               <ul className="text-sm text-gray-600 space-y-2">
                 <li className="flex items-center justify-center">
                   <CheckCircle className="h-4 w-4 text-green-500 mr-2" />

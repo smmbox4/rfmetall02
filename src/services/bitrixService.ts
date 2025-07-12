@@ -87,10 +87,10 @@ const findExistingLead = async (phone: string): Promise<any> => {
       body: new URLSearchParams({
         'filter[PHONE]': formattedPhone,
         'filter[>DATE_CREATE]': new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString(), // За последние 24 часа
-        'select[]': 'ID',
-        'select[]': 'TITLE',
-        'select[]': 'NAME',
-        'select[]': 'COMMENTS'
+        'select[0]': 'ID',
+        'select[1]': 'TITLE',
+        'select[2]': 'NAME',
+        'select[3]': 'COMMENTS'
       })
     });
 

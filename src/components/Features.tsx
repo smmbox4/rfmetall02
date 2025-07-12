@@ -27,7 +27,7 @@ const Features: React.FC = () => {
     {
       icon: Award,
       title: 'Лучшие цены',
-      description: 'Экономия до 15% благодаря прямым поставкам',
+      description: 'Экономия до 50% благодаря прямым поставкам от заводов',
       color: 'from-purple-500 to-pink-500'
     },
     {
@@ -66,7 +66,7 @@ const Features: React.FC = () => {
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Мы предлагаем комплексные решения для поставки металлопроката из России в Казахстан 
-            с гарантией качества и конкурентными ценами
+            с гарантией качества и экономией до 50%
           </p>
         </div>
 

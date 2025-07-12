@@ -45,10 +45,10 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="text-2xl font-bold mb-2">Телефон</h4>
                   <a 
-                    href="tel:+77777777777" 
+                    href="tel:+77012345678" 
                     className="text-3xl font-bold text-orange-300 hover:text-orange-200 transition-colors block mb-2"
                   >
-                    +7 (777) 777-77-77
+                    +7 (701) 234-56-78
                   </a>
                   <p className="text-blue-200">Звоните с 9:00 до 18:00 (пн-пт)</p>
                   <p className="text-blue-200">Консультации и заказы</p>
@@ -63,10 +63,10 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="text-2xl font-bold mb-2">Email</h4>
                   <a 
-                    href="mailto:info@atlantsnabcity.kz" 
+                    href="mailto:info@atlantmetal.kz" 
                     className="text-xl text-orange-300 hover:text-orange-200 transition-colors block mb-2"
                   >
-                    info@atlantsnabcity.kz
+                    info@atlantmetal.kz
                   </a>
                   <p className="text-blue-200">Коммерческие предложения</p>
                   <p className="text-blue-200">Техническая поддержка</p>
@@ -152,10 +152,10 @@ const Contact: React.FC = () => {
                   Позвоните нам прямо сейчас для оформления срочного заказа
                 </p>
                 <a
-                  href="tel:+77777777777"
+                  href="tel:+77012345678"
                   className="block w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-6 py-3 rounded-xl font-semibold transition-all text-center"
                 >
-                  Позвонить сейчас
+                  Позвонить: +7 (701) 234-56-78
                 </a>
               </div>
 

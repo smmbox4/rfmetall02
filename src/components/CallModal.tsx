@@ -203,10 +203,10 @@ const CallModal: React.FC = () => {
                   Попробовать снова
                 </button>
                 <a
-                  href="tel:+77777777777"
+                  href="tel:+77012345678"
                   className="block w-full bg-green-600 text-white py-3 rounded-xl font-semibold hover:bg-green-700 transition-colors text-center"
                 >
-                  📞 Позвонить: +7 (777) 777-77-77
+                  📞 Позвонить: +7 (701) 234-56-78
                 </a>
               </div>
             </div>

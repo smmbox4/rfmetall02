@@ -47,7 +47,7 @@ const Header: React.FC = () => {
             </div>
             <div>
               <h1 className="text-xl lg:text-2xl font-bold text-gray-900">
-                АТЛАНТ Снаб Сити
+                АТЛАНТ МЕТАЛЛ
               </h1>
               <p className="text-sm text-gray-600 hidden sm:block">
                 Поставка металлопроката из России
@@ -75,7 +75,7 @@ const Header: React.FC = () => {
           <div className="flex items-center space-x-4">
             <div className="hidden md:block text-right">
               <div className="text-2xl font-bold text-blue-600">
-                +7 (777) 777-77-77
+                +7 (701) 234-56-78
               </div>
               <div className="text-sm text-gray-600">
                 Бесплатная консультация
@@ -135,7 +135,7 @@ const Header: React.FC = () => {
               </a>
               <div className="md:hidden pt-4 border-t border-gray-200">
                 <div className="text-xl font-bold text-blue-600 mb-1">
-                  +7 (777) 777-77-77
+                  +7 (701) 234-56-78
                 </div>
                 <div className="text-sm text-gray-600">
                   Бесплатная консультация
